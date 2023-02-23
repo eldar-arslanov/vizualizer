@@ -133,6 +133,7 @@ h6 {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  padding-bottom: 15px;
 }
 .about__text-p {
   display: block;
@@ -145,8 +146,8 @@ h6 {
   
 }
 .about__img {
-  max-width: 500px;
-
+  max-width: calc(367px + 133 * (100vw / 1200));
+  padding: 0 10px;
 }
 
 /* adaptive */
@@ -162,6 +163,12 @@ h6 {
   .about__text-p {
     line-height: calc(30px + (5 + 5 * 0.7) * ((100vw - 370px) / 1200));
     padding-bottom: 10px;
+    max-width: 415px;
     
+  }
+}
+@media (max-width: 410px) {
+  .about__img {
+    max-width: 367px;
   }
 }
