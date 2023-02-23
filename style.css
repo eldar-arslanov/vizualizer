@@ -172,3 +172,8 @@ h6 {
     max-width: 367px;
   }
 }
+@media (max-width: 375px) {
+  .about__img {
+    max-height: 337px;
+  }
+}
