@@ -256,7 +256,7 @@
   .footer__social {
     display: flex;
     justify-content: center;
-    gap: 240px;
+    gap: 100px;
   }
   .footer__icon-block {
   }
@@ -264,8 +264,8 @@
     display: block;
   }
   .footer__icon {
-    width: 85%;
-    height: 85%;
+    width: 70%;
+    height: 70%;
   }
   
   .foter__link-text {
@@ -289,8 +289,8 @@
       flex-wrap: wrap;
     }
     .footer__icon {
-      width:80% ;
-      height:80% ;
+      width: 60% ;
+      height:60% ;
     }
   }
   @media (max-width: 767px) {
@@ -318,7 +318,7 @@
       gap: 20px;
     }
     .footer__social {
-      gap: 80px;
+      gap: 0px;
     }
     .foter__link-text {
       font-size: 40px;
@@ -338,7 +338,7 @@
       padding-bottom: 30px;
     }
     .footer__social {
-      gap: 50px;
+      gap: 30px;
     }
     .foter__link-text {
       font-size: 35px;
@@ -346,6 +346,10 @@
     .about__title {
       margin: 40px 0 30px;
     }
+    .footer__social {
+        gap: 0px;
+      }
+      
   }
   
   @media (max-width: 375px) {
