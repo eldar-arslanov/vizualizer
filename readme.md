@@ -1,3 +1,2 @@
 #visual
-portfolio's Asya 
-all ready
+this is cool
