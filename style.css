@@ -203,6 +203,26 @@
     flex-direction: column;
     align-items: center;
   }
+  .button  {
+    display: inline-block;
+    margin-top: 40px;
+      padding: 15px 25px;
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      font-size: 25px;
+      border-radius: 40px;
+      border: none;
+      cursor: pointer;
+  }
+   
+  .night-theme {
+    color: #000000;
+    background-color: #645F5F;
+    border: 2px  solid rgb(218, 16, 9);
+    margin-top: 40px;
+    padding: 15px 25px;
+  }
   .img-visual {
   }
   .img-visual--padding {
